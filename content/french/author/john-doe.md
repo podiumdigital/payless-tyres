@@ -1,14 +1,16 @@
 ---
 title: "John Doe"
+image : ""
 email: "email2@example.org"
-bg_image: "images/feature-bg.jpg"
+description: "this is meta description"
+bg_image: "images/bg/banner-1.jpg"
 draft: false
 social:
-  - icon : "fab fa-facebook" #https://fontawesome.com/v5.15/icons
+  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
     link : "#"
-  - icon : "fab fa-twitter" #https://fontawesome.com/v5.15/icons
+  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "#"
-  - icon : "fab fa-pinterest" #https://fontawesome.com/v5.15/icons
+  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
     link : "#"
 ---
 

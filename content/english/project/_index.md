@@ -1,6 +1,8 @@
 ---
 title: "Our Project"
-description: "this is meta description"
+date: 2019-09-16T10:30:13+06:00
 draft: false
-bg_image: "images/feature-bg.jpg"
+description: "this is meta description"
+bg_image: "images/bg/banner-1.jpg"
 ---
+
