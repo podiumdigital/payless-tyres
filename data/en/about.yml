@@ -1,60 +1,48 @@
-############################### About #################################
-about:
-  enable: true
-  title : "We create digital ideas that are bigger, bolder, braver and better."
-  content : "We provide consulting services in the area of IFRS and management
-          reporting, helping companies to reach their highest level. We optimize business processes, making them easier."
-  about_item:
-    # about item loop
-    - title : "Our Mission"
-      image : "images/about/bg-1.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
-          
-    # about item loop
-    - title : "Our Vission"
-      image : "images/about/about.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
-          
-    # about item loop
-    - title : "Our Approach"
-      image : "images/about/home-8.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
-
-##################### Funfacts ######################################
-funfacts:
+###################################### philosophy ####################################
+philosophy:
   enable : true
-  bg_image : "images/bg/banner-1.jpg"
-  # funfact item comes from "data/**/homepage.yml" file.
+  subtitle : Know About
+  title : Our Philosophy
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderivoluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat noproident sunt culpa qui officia deserunt mollit anim id est laborum.<br> Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+  image : images/about/philosophy.jpg
+
+###################################### ceo ########################################
+ceo:
+  enable : true
+  bg_image : images/about/ceo.jpg
+  title : We are efficient to <br> make your business rise
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+  signature : images/about/ceo-signature.png
+  name : John Doe
+  designation : CEO
+
+########################################### Mission ###################################
+mission:
+  enable : true
+  # mission content comes from "data/*/homepage.yml" file
+
+###################################### funfacts ####################################
+funfacts: 
+  enable : true
+  bg_image : images/background/cta.jpg
+  counter:
+    - title : Projects Done
+      icon : ti-server # themify icon pack : https://themify.me/themify-icons
+      count : 230
       
-############################# Team ##################################
-team:
-  enable: true
-  # team content comes from "data/**/homepage.yml" file
+    - title : Satisfied Clients
+      icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
+      count : 789
+      
+    - title : Cup Of Coffee
+      icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
+      count : 580
+      
+    - title : Awards Win
+      icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+      count : 130
 
-############################ Testimonial ############################
-testimonial:
+########################################### skill ###################################
+skill:
   enable : true
-  bg_image : "images/bg/about-modern-img-1.jpg"
-  testimonial_item:
-    # testimonial item loop
-    - name : "Thomas Johnson"
-      designation : "Excutive Director"
-      content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
-              ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
-              
-    # testimonial item loop
-    - name : "Mickel hussy"
-      designation : "Director"
-      content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
-              ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
-              
-    # testimonial item loop
-    - name : "James Watson"
-      designation : "Excutive manager"
-      content: "Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere
-              ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit."
-
-######################### clients logo ##################################
-clients_logo:
-  enable : true
-  # clients logo comes from "config.toml" file.
+  # skill content comes from "data/*/homepage.yml" file

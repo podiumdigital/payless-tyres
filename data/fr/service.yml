@@ -1,68 +1,19 @@
-########################### services ############################
-services:
-  # service item loop
-  - title : "Web development"
-    icon : "ti-desktop" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Interface Design"
-    icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Business Consulting"
-    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Branding"
-    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "App development"
-    icon : "ti-android" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Content creation"
-    icon : "ti-pencil-alt" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Business Consulting"
-    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "Branding"
-    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-    
-  # service item loop
-  - title : "App development"
-    icon : "ti-android" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-
-######################### pricing #####################################
-pricing:
+################################## Satisfied clients ###############################
+satisfied_clients:
   enable : true
-  # pricing item comes from "pricing.yml" file
-
-######################## Service step #################################
-steps:
+  bg_image : images/background/clients-bg.jpg
+  subtitle : Our Some
+  title : Satisfied Clients
+  content : Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis. natus error sit voluptem accusantium doloremqu laudantium totam remaperiam eaque ipsa quae
+  logo:
+    - images/client-logo/client-logo-1-white.png
+    - images/client-logo/client-logo-2-white.png
+    - images/client-logo/client-logo-4-white.png
+    - images/client-logo/client-logo-3-white.png
+    - images/client-logo/client-logo-5-white.png
+    - images/client-logo/client-logo-3-white.png
+    
+##################################### call to action #################################
+testimonial:
   enable : true
-  step:
-    # step loop
-    - title : "Discuss with us"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
-
-    # step loop
-    - title : "Choose your perfect plan"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
-      
-    # step loop
-    - title : "Start your project"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
+  # testimonial content comes from "data/*/homepage.yml" file

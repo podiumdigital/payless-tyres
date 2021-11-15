@@ -1,10 +1,6 @@
 ---
 title: "Mark Dinn"
-image : ""
 email: "email2@example.org"
-description: "this is meta description"
-bg_image: "images/bg/banner-1.jpg"
-draft: false
 social:
   - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
     link : "#"
